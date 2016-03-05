@@ -1,0 +1,4 @@
+web:
+  image: REGISTRY/project:TAG
+  ports:
+   - "80:8080"
