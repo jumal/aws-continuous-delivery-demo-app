@@ -1,4 +1,7 @@
 web:
   image: REGISTRY/project:TAG
+  mem_limit: 536870912
+  environment:
+    - JAVA_OPTS=-Xmx373m
   ports:
    - "80:8080"
