@@ -14,9 +14,4 @@ public class Controller {
         InetAddress localhost = InetAddress.getLocalHost();
         return "Hello from " + localhost.getHostName() + " (" + localhost.getHostAddress() + ")!";
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
 }
